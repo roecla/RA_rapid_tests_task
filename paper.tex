@@ -1,0 +1,22 @@
+\documentclass[a4paper]{article}
+
+
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage[backend=biber, natbib=true, bibencoding=inputenc, bibstyle=authoryear, citestyle=authoryear-comp, mincitenames=1, maxcitenames=3, minbibnames=99, maxbibnames=99, uniquename=false, uniquelist=true, backref=true, backrefstyle=three, doi=true, isbn=false, dashed=false, sorting=ynt, sortcites=true, mergedate=true, dateabbrev=false, abbreviate=false, citetracker=true]{biblatex}
+
+\pgfplotsset{compat=1.16}
+\renewcommand{\baselinestretch}{1.2} %space between lines
+\bibliography{references.bib}
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0.0pt}
+
+
+\begin{document}
+
+\input{rapid_test_params}
+
+\end{document}
